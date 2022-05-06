@@ -6,8 +6,6 @@ void setup() {
 }
 
 void loop() {
-
-
 }
 
 void extract(String record) {
@@ -35,27 +33,6 @@ void extract(String record) {
 
     x++;
   }
-
-  //  for (int i = record.length() - 1; i > 0; i--) {
-  //
-  //        if (record[i] == ',') {
-  //          dummy_count  = i;
-  //          ex_angle = record.substring(dummy_count+1,record.length()-1);
-  //          ex_count
-  //          break;
-  //        }
-  //
-  //      number++;
-  //  }
   int pos = dummy_count;
-  //dummy +=
-  //          Serial.println(pos);
-  //        Serial.print("ex angle: ");
-  //          Serial.println(ex_angle);
-  //  Serial.println(dummy_count);
-  //  Serial.println();
-  //  Serial.print("no of step: ");
-  //  Serial.println(number - 1);
-
   record = "";
 }
